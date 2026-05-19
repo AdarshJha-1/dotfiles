@@ -1,0 +1,124 @@
+* {
+    bg-col:            #282828;
+    bg-col-light:      #32302f;
+    border-col:        #504945;
+    selected-col:      #3c3836;
+
+    fg-col:            #ebdbb2;
+    fg-col2:           #fb4934;
+    grey:              #928374;
+
+    blue:              #83a598;
+    green:             #b8bb26;
+    yellow:            #fabd2f;
+    orange:            #fe8019;
+
+    width: 450;
+    font: "JetBrainsMono Nerd Font 12";
+}
+
+element-text,
+element-icon,
+mode-switcher {
+    background-color: inherit;
+    text-color: inherit;
+}
+
+window {
+    height: 280px;
+    border: 2px;
+    border-color: @border-col;
+    background-color: @bg-col;
+    border-radius: 8px;
+}
+
+mainbox {
+    background-color: @bg-col;
+}
+
+inputbar {
+    children: [prompt, entry];
+    background-color: @bg-col-light;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 10px;
+}
+
+prompt {
+    background-color: @green;
+    padding: 6px 10px;
+    text-color: @bg-col;
+    border-radius: 4px;
+}
+
+textbox-prompt-colon {
+    expand: false;
+    str: "❯";
+}
+
+entry {
+    padding: 6px;
+    margin: 0px 0px 0px 8px;
+    text-color: @fg-col;
+    background-color: transparent;
+}
+
+listview {
+    border: 0px;
+    padding: 6px;
+    margin: 0px 8px 8px 8px;
+    columns: 2;
+    lines: 5;
+    spacing: 4px;
+    background-color: @bg-col;
+}
+
+element {
+    padding: 6px;
+    border-radius: 6px;
+    background-color: @bg-col;
+    text-color: @fg-col;
+}
+
+element-icon {
+    size: 18px;
+}
+
+element selected {
+    background-color: @selected-col;
+    text-color: @yellow;
+    border: 1px;
+    border-color: @orange;
+}
+
+mode-switcher {
+    spacing: 6px;
+    margin: 0px 10px 10px 10px;
+}
+
+button {
+    padding: 6px;
+    border-radius: 6px;
+    background-color: @bg-col-light;
+    text-color: @grey;
+    vertical-align: 0.5;
+    horizontal-align: 0.5;
+}
+
+button selected {
+    background-color: @selected-col;
+    text-color: @blue;
+}
+
+message {
+    background-color: @bg-col-light;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+textbox {
+    padding: 4px;
+    text-color: @green;
+    background-color: transparent;
+}
