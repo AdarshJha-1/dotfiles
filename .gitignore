@@ -1,0 +1,13 @@
+# Ignore OS-generated files
+.DS_Store
+.directory
+
+# Ignore local application runtime states if they accidentally get copied
+**/.cache/
+**/node_modules/
+**/.pypy/
+*.log
+
+# Ignore local/secret variables you might test locally
+.env
+.env.*
