@@ -24,7 +24,10 @@ default_floating_border normal
 
 # exec_always --no-startup-id feh --recursive --bg-scale /home/adarsh/.config/backgrounds/mitsuri-kanroji-neon.png
 # exec_always --no-startup-id feh --recursive --bg-scale /home/adarsh/.config/backgrounds/Wallpaper-anime-girl-BW.png
-exec_always --no-startup-id feh --recursive --bg-scale /home/adarsh/.config/backgrounds/kaiju.png
+# exec_always --no-startup-id feh --recursive --bg-scale /home/adarsh/.config/backgrounds/kaiju.png
+# exec_always --no-startup-id feh --recursive --bg-scale /home/adarsh/.config/backgrounds/miku.jpg
+# exec_always --no-startup-id feh --recursive --bg-scale /home/adarsh/.config/backgrounds/kita.png
+exec_always --no-startup-id feh --recursive --bg-scale /home/adarsh/.config/backgrounds/wp15469494-shadow-slave-wallpapers.jpg
 
 #------------- new added -----------
 exec --no-startup-id dunst
